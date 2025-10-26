@@ -45,7 +45,7 @@ void SeedDatabase(LibraryContext context)
 {
     if (context.Authors.Any())
     {
-        return;
+        return; 
     }
 
     var authors = new List<Author>
