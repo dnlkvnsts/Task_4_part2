@@ -16,9 +16,7 @@ namespace Task_4.Models
       
         public int AuthorId { get; set; }
 
-
-        [ForeignKey("AuthorId")]
-        public virtual Author Author { get; set; }
+        public  Author Author { get; set; }
 
       
     }

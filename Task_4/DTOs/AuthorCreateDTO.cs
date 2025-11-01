@@ -1,8 +1,9 @@
-﻿namespace Task_4.DTOs.Book
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Task_4.DTOs
 {
-    public class AuthorInBookDTO
+    public class AuthorCreateDTO
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public DateTime? DateOfBirth { get; set; }
     }
